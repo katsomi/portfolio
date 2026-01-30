@@ -4,12 +4,16 @@
   gap: 1rem;
 }
 
-.about__pfp {
-  justify-content: start;
-}
-
 .about__image {
   box-shadow: .1rem .1rem 1rem .1rem #871225a4;
+}
+
+.about__pfp {
+  filter: blur(1px) brightness(75%);
+}
+
+.about__pfp::after {
+  background-color: #87122517;
 }
 
 .about__title {
